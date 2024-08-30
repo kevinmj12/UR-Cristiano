@@ -1,9 +1,11 @@
 import random
 
+# 재시작 했을 때 이거 안나옴
 print("숫자 야구 게임을 시작합니다.")
 
 while True:
 
+    # 숫자야구에 대한 이해도가 부족함
     answer = random.randrange(100, 1000)
     answer = str(answer)
     errorCount = 0
@@ -47,6 +49,7 @@ while True:
                 print("\n")
             
 
+        # 불필요한 코드
         except:
             errorCount += 1
 
