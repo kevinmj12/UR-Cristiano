@@ -1,6 +1,8 @@
 list1 = list(map(int, input().split()))
 list2 = list(map(int, input().split()))
 
+# 함수 파라미터의 타입을 정의하면 더 좋을 것 같아요
+
 def removeDup(l):
     l = set(l)
     l = list(l)
